@@ -12,7 +12,7 @@ export interface UI_STATE_INTERFACE {
 }
 
 export const INITIAL_STATE: UI_STATE_INTERFACE = {
-  theme: 'dark',
+  theme: 'light',
 };
 
 export const UiProvider: React.FC<{ children: JSX.Element | JSX.Element[] }> = ({ children }) => {
